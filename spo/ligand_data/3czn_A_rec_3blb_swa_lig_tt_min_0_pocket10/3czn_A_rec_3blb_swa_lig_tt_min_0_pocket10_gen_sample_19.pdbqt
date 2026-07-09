@@ -1,0 +1,38 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_6 
+REMARK    2  A    between atoms: C_6  and  C_8 
+REMARK    3  A    between atoms: C_7  and  O_9 
+REMARK    4  A    between atoms: C_7  and  N_15 
+REMARK    5  A    between atoms: C_11  and  O_13 
+ROOT
+HETATM    1  C   UNL     1      31.792  67.359   7.945  1.00  0.00     0.075 C 
+HETATM    2  C   UNL     1      30.508  67.009   7.206  1.00  0.00     0.057 C 
+HETATM    3  C   UNL     1      30.893  65.844   6.299  1.00  0.00     0.176 C 
+HETATM    4  C   UNL     1      32.657  66.118   7.919  1.00  0.00     0.251 C 
+HETATM    5  C   UNL     1      31.978  65.101   7.041  1.00  0.00     0.226 C 
+ENDROOT
+BRANCH   4   6
+HETATM    6  O   UNL     1      32.928  65.652   9.226  1.00  0.00    -0.363 OA
+ATOM      7  HO  UNL     1      33.471  64.873   9.210  1.00  0.00     0.212 HD
+ENDBRANCH   4   6
+BRANCH   4   8
+HETATM    8  N   UNL     1      33.935  66.436   7.338  1.00  0.00    -0.044 N 
+ATOM      9  HN3 UNL     1      33.844  66.862   6.416  1.00  0.00     0.278 HD
+ATOM     10  HN2 UNL     1      34.392  67.214   7.813  1.00  0.00     0.278 HD
+ATOM     11  HN1 UNL     1      34.518  65.599   7.320  1.00  0.00     0.278 HD
+ENDBRANCH   4   8
+BRANCH   5  12
+HETATM   12  O   UNL     1      31.682  63.877   7.607  1.00  0.00    -0.387 OA
+ATOM     13  HO  UNL     1      32.365  63.410   8.074  1.00  0.00     0.210 HD
+ENDBRANCH   5  12
+BRANCH   3  14
+HETATM   14  O   UNL     1      29.739  65.065   6.030  1.00  0.00    -0.376 OA
+ATOM     15  HO  UNL     1      29.979  64.340   5.465  1.00  0.00     0.211 HD
+ENDBRANCH   3  14
+BRANCH   3  16
+HETATM   16  C   UNL     1      31.627  66.316   5.041  1.00  0.00     0.211 C 
+HETATM   17  O   UNL     1      31.296  67.384   4.540  1.00  0.00    -0.646 OA
+HETATM   18  O   UNL     1      32.568  65.604   4.627  1.00  0.00    -0.646 OA
+ENDBRANCH   3  16
+TORSDOF 5

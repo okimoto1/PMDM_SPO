@@ -1,0 +1,72 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C_1  and  N_2 
+REMARK    1  A    between atoms: C_1  and  C_23 
+REMARK    2  A    between atoms: C_5  and  C_39 
+REMARK    3  A    between atoms: C_7  and  C_36 
+REMARK    4  A    between atoms: C_10  and  C_37 
+REMARK    5  A    between atoms: C_10  and  C_39 
+REMARK    6  A    between atoms: C_13  and  N_19 
+REMARK    7  A    between atoms: C_13  and  O_33 
+REMARK    8  A    between atoms: C_13  and  C_37 
+REMARK    9  A    between atoms: C_18  and  O_30 
+ROOT
+HETATM    1  C   UNL     1     -13.265  18.057  14.609  1.00  0.00    -0.010 C 
+HETATM    2  C   UNL     1     -12.696  19.430  14.935  1.00  0.00     0.024 C 
+HETATM    3  C   UNL     1     -11.466  18.743  10.301  1.00  0.00     0.009 C 
+HETATM    4  C   UNL     1     -11.562  17.480  11.153  1.00  0.00     0.031 C 
+HETATM    5  C   UNL     1     -11.640  19.948  13.929  1.00  0.00     0.117 C 
+HETATM    6  C   UNL     1     -11.412  19.894  11.338  1.00  0.00     0.122 C 
+HETATM    7  N   UNL     1     -11.746  19.298  12.626  1.00  0.00    -0.408 N 
+HETATM    8  C   UNL     1     -12.817  17.218  13.395  1.00  0.00     0.029 C 
+HETATM    9  C   UNL     1     -11.594  17.829  12.655  1.00  0.00     0.080 C 
+ENDROOT
+BRANCH   3  10
+HETATM   10  C   UNL     1     -10.472  18.938   9.133  1.00  0.00    -0.008 C 
+HETATM   11  C   UNL     1     -10.422  17.746   8.168  1.00  0.00     0.014 C 
+HETATM   12  C   UNL     1     -10.330  18.325   6.757  1.00  0.00     0.024 A 
+HETATM   13  C   UNL     1     -11.342  17.827   5.777  1.00  0.00    -0.046 A 
+HETATM   14  C   UNL     1     -10.531  19.832   6.834  1.00  0.00    -0.001 A 
+HETATM   15  C   UNL     1     -12.058  18.890   5.212  1.00  0.00    -0.048 A 
+HETATM   16  C   UNL     1     -11.671  16.515   5.447  1.00  0.00     0.028 C 
+HETATM   17  C   UNL     1     -13.187  18.648   4.444  1.00  0.00     0.045 C 
+HETATM   18  C   UNL     1     -11.627  20.200   5.821  1.00  0.00     0.044 A 
+HETATM   19  C   UNL     1     -13.648  17.331   4.320  1.00  0.00     0.082 C 
+HETATM   20  C   UNL     1     -12.843  16.251   4.731  1.00  0.00     0.065 C 
+HETATM   21  C   UNL     1     -10.942  20.139   8.278  1.00  0.00     0.010 C 
+BRANCH  19  22
+HETATM   22  O   UNL     1     -14.956  17.159   3.986  1.00  0.00    -0.360 OA
+ATOM     23  HO  UNL     1     -15.499  17.888   3.709  1.00  0.00     0.217 HD
+ENDBRANCH  19  22
+BRANCH  20  24
+HETATM   24  C   UNL     1     -13.250  14.830   4.496  1.00  0.00     0.252 C 
+HETATM   25  N   UNL     1     -14.280  14.557   3.703  1.00  0.00    -0.366 N 
+ATOM     26  HN2 UNL     1     -14.647  15.283   3.088  1.00  0.00     0.159 HD
+ATOM     27  HN1 UNL     1     -14.557  13.589   3.543  1.00  0.00     0.159 HD
+HETATM   28  O   UNL     1     -12.800  13.940   5.250  1.00  0.00    -0.268 OA
+ENDBRANCH  20  24
+ENDBRANCH   3  10
+BRANCH   1  29
+HETATM   29  C   UNL     1     -14.463  17.580  15.420  1.00  0.00     0.016 C 
+BRANCH  29  30
+HETATM   30  C   UNL     1     -15.854  18.037  15.044  1.00  0.00     0.085 C 
+BRANCH  30  31
+HETATM   31  C   UNL     1     -17.331  18.363  15.194  1.00  0.00    -0.117 C 
+BRANCH  31  32
+HETATM   32  C   UNL     1     -18.831  18.720  15.049  1.00  0.00     0.272 C 
+HETATM   33  C   UNL     1     -19.197  18.985  13.592  1.00  0.00     0.092 C 
+BRANCH  32  34
+HETATM   34  N   UNL     1     -19.205  19.923  15.763  1.00  0.00    -0.037 N 
+ATOM     35  HN3 UNL     1     -18.789  20.773  15.383  1.00  0.00     0.279 HD
+ATOM     36  HN2 UNL     1     -20.178  20.196  15.627  1.00  0.00     0.279 HD
+ATOM     37  HN1 UNL     1     -18.960  19.746  16.737  1.00  0.00     0.279 HD
+ENDBRANCH  32  34
+BRANCH  32  38
+HETATM   38  O   UNL     1     -19.623  17.633  15.478  1.00  0.00    -0.356 OA
+ATOM     39  HO  UNL     1     -19.378  16.844  15.010  1.00  0.00     0.213 HD
+ENDBRANCH  32  38
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH   1  29
+TORSDOF 9

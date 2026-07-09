@@ -1,0 +1,66 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  O_23 
+REMARK    2  A    between atoms: N_3  and  C_35 
+REMARK    3  A    between atoms: C_7  and  C_35 
+REMARK    4  A    between atoms: C_22  and  O_41 
+REMARK    5  A    between atoms: O_26  and  C_38 
+REMARK    6  A    between atoms: O_29  and  C_38 
+ROOT
+HETATM    1  C   UNL     1      26.619  60.055  22.383  1.00  0.00     0.030 C 
+HETATM    2  C   UNL     1      23.508  63.182  18.896  1.00  0.00     0.185 C 
+HETATM    3  C   UNL     1      20.738  61.490  22.602  1.00  0.00     0.134 C 
+HETATM    4  C   UNL     1      19.633  59.535  23.812  1.00  0.00     0.254 C 
+HETATM    5  C   UNL     1      22.048  61.139  23.328  1.00  0.00     0.079 C 
+HETATM    6  C   UNL     1      20.097  62.719  23.270  1.00  0.00     0.047 C 
+HETATM    7  C   UNL     1      24.456  61.158  21.911  1.00  0.00    -0.019 C 
+HETATM    8  C   UNL     1      19.866  60.245  22.478  1.00  0.00     0.080 C 
+HETATM    9  N   UNL     1      28.762  60.512  21.512  1.00  0.00    -0.399 N 
+ATOM     10  HN1 UNL     1      29.352  60.828  20.742  1.00  0.00     0.156 HD
+ATOM     11  HN2 UNL     1      29.148  60.271  22.425  1.00  0.00     0.156 HD
+HETATM   12  N   UNL     1      20.841  59.428  24.652  1.00  0.00    -0.063 N 
+ATOM     13  HN1 UNL     1      20.895  58.510  25.094  1.00  0.00     0.278 HD
+ATOM     14  HN2 UNL     1      20.756  60.011  25.485  1.00  0.00     0.278 HD
+HETATM   15  N   UNL     1      21.158  61.906  21.247  1.00  0.00    -0.054 N 
+ATOM     16  HN1 UNL     1      20.503  62.548  20.800  1.00  0.00     0.279 HD
+ATOM     17  HN2 UNL     1      21.093  61.158  20.556  1.00  0.00     0.279 HD
+HETATM   18  C   UNL     1      27.429  60.489  21.326  1.00  0.00     0.026 C 
+HETATM   19  C   UNL     1      24.911  63.591  18.458  1.00  0.00     0.218 C 
+HETATM   20  C   UNL     1      25.349  60.448  22.686  1.00  0.00     0.015 C 
+HETATM   21  C   UNL     1      22.505  62.454  21.383  1.00  0.00     0.249 C 
+HETATM   22  C   UNL     1      23.080  61.386  22.289  1.00  0.00    -0.026 C 
+HETATM   23  C   UNL     1      25.855  61.671  19.845  1.00  0.00     0.019 C 
+HETATM   24  C   UNL     1      26.901  60.819  20.076  1.00  0.00     0.042 C 
+HETATM   25  C   UNL     1      25.882  62.394  18.493  1.00  0.00     0.219 C 
+HETATM   26  C   UNL     1      22.088  59.734  23.921  1.00  0.00     0.244 C 
+HETATM   27  C   UNL     1      23.463  62.459  20.213  1.00  0.00    -0.003 C 
+HETATM   28  C   UNL     1      24.708  61.738  20.644  1.00  0.00    -0.006 C 
+ENDROOT
+BRANCH   4  29
+HETATM   29  C   UNL     1      18.661  60.447  24.543  1.00  0.00     0.099 C 
+HETATM   30  N   UNL     1      18.964  60.963  25.708  1.00  0.00    -0.388 N 
+ATOM     31  HN2 UNL     1      18.312  61.575  26.198  1.00  0.00     0.157 HD
+ATOM     32  HN1 UNL     1      19.868  60.761  26.135  1.00  0.00     0.157 HD
+BRANCH  29  33
+HETATM   33  N   UNL     1      17.495  60.707  23.992  1.00  0.00    -0.388 N 
+ATOM     34  HN2 UNL     1      17.259  60.305  23.085  1.00  0.00     0.157 HD
+ATOM     35  HN1 UNL     1      16.843  61.319  24.482  1.00  0.00     0.157 HD
+ENDBRANCH  29  33
+ENDBRANCH   4  29
+BRANCH   2  36
+HETATM   36  O   UNL     1      22.892  62.374  17.915  1.00  0.00    -0.388 OA
+ATOM     37  HO  UNL     1      22.018  62.119  18.188  1.00  0.00     0.210 HD
+ENDBRANCH   2  36
+BRANCH  19  38
+HETATM   38  O   UNL     1      24.801  64.078  17.132  1.00  0.00    -0.387 OA
+ATOM     39  HO  UNL     1      25.675  64.333  16.859  1.00  0.00     0.210 HD
+ENDBRANCH  19  38
+BRANCH  25  40
+HETATM   40  O   UNL     1      27.189  62.893  18.270  1.00  0.00    -0.360 OA
+ATOM     41  HO  UNL     1      27.787  62.155  18.292  1.00  0.00     0.213 HD
+ENDBRANCH  25  40
+BRANCH  25  42
+HETATM   42  O   UNL     1      25.560  61.481  17.468  1.00  0.00    -0.360 OA
+ATOM     43  HO  UNL     1      26.158  60.743  17.490  1.00  0.00     0.213 HD
+ENDBRANCH  25  42
+TORSDOF 6

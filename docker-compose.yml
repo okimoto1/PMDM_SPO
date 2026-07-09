@@ -1,0 +1,18 @@
+services:
+  pmdm_spo:
+    build:
+      context: .
+      dockerfile: dockerfile.yml
+    volumes:
+      - .:/workspace
+      - /path/to/your/data:/workspace/data  # change the path for your environment
+    command: tail -f /dev/null
+    tty: true
+    stdin_open: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu] 

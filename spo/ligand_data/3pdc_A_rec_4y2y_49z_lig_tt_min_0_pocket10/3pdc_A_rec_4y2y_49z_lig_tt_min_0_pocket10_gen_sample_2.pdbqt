@@ -1,0 +1,37 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_2  and  C_6 
+REMARK    2  A    between atoms: C_5  and  C_9 
+REMARK       I    between atoms: C_9  and  N_17 
+REMARK    3  A    between atoms: C_10  and  C_19 
+REMARK    4  A    between atoms: N_17  and  C_19 
+ROOT
+HETATM    1  C   UNL     1      15.879  10.267  15.321  1.00  0.00     0.251 C 
+HETATM    2  O   UNL     1      15.681   9.206  14.723  1.00  0.00    -0.268 OA
+HETATM    3  N   UNL     1      16.764  11.190  14.956  1.00  0.00    -0.356 N 
+ATOM      4  HN  UNL     1      16.846  11.995  15.576  1.00  0.00     0.162 HD
+ENDROOT
+BRANCH   3   5
+HETATM    5  C   UNL     1      17.629  11.201  13.789  1.00  0.00     0.130 C 
+BRANCH   5   6
+HETATM    6  C   UNL     1      17.531   9.977  12.884  1.00  0.00     0.032 C 
+HETATM    7  C   UNL     1      18.888   9.701  12.219  1.00  0.00     0.123 C 
+HETATM    8  C   UNL     1      18.554   9.103  10.849  1.00  0.00     0.032 C 
+HETATM    9  C   UNL     1      17.202   9.684  10.466  1.00  0.00     0.003 C 
+HETATM   10  C   UNL     1      16.522  10.118  11.762  1.00  0.00     0.009 C 
+BRANCH   7  11
+HETATM   11  O   UNL     1      19.643   8.803  13.029  1.00  0.00    -0.395 OA
+ATOM     12  HO  UNL     1      19.850   9.174  13.879  1.00  0.00     0.210 HD
+ENDBRANCH   7  11
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+BRANCH   1  13
+HETATM   13  C   UNL     1      15.025  10.581  16.525  1.00  0.00     0.032 C 
+HETATM   14  C   UNL     1      13.660  10.658  16.325  1.00  0.00     0.017 C 
+HETATM   15  C   UNL     1      12.739  11.081  17.270  1.00  0.00     0.001 C 
+HETATM   16  C   UNL     1      12.927  11.613  18.526  1.00  0.00     0.000 C 
+HETATM   17  C   UNL     1      14.025  11.536  19.339  1.00  0.00     0.000 C 
+HETATM   18  C   UNL     1      15.244  10.948  19.017  1.00  0.00     0.001 C 
+HETATM   19  C   UNL     1      15.684  10.629  17.755  1.00  0.00     0.017 C 
+ENDBRANCH   1  13
+TORSDOF 4

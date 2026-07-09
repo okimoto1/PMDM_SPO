@@ -1,0 +1,39 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  O_9 
+REMARK    2  A    between atoms: C_2  and  O_11 
+REMARK    3  A    between atoms: C_3  and  C_15 
+REMARK    4  A    between atoms: C_4  and  C_7 
+REMARK    5  A    between atoms: C_7  and  C_15 
+ROOT
+HETATM    1  C   UNL     1      28.213   5.875  61.864  1.00  0.00     0.073 C 
+HETATM    2  C   UNL     1      27.384   4.562  62.003  1.00  0.00     0.163 C 
+HETATM    3  C   UNL     1      28.924   5.309  59.570  1.00  0.00    -0.010 C 
+HETATM    4  C   UNL     1      29.442   5.421  61.031  1.00  0.00    -0.005 C 
+HETATM    5  C   UNL     1      29.604   3.974  61.476  1.00  0.00     0.015 C 
+HETATM    6  C   UNL     1      28.165   3.576  61.104  1.00  0.00     0.048 C 
+HETATM    7  C   UNL     1      28.075   4.020  59.636  1.00  0.00     0.015 C 
+ENDROOT
+BRANCH   3   8
+HETATM    8  C   UNL     1      29.979   5.237  58.465  1.00  0.00     0.009 C 
+BRANCH   8   9
+HETATM    9  C   UNL     1      31.486   5.124  58.513  1.00  0.00     0.039 C 
+BRANCH   9  10
+HETATM   10  C   UNL     1      32.282   5.759  59.650  1.00  0.00    -0.058 A 
+HETATM   11  C   UNL     1      32.597   7.102  59.597  1.00  0.00     0.007 A 
+HETATM   12  C   UNL     1      33.442   7.665  60.550  1.00  0.00     0.001 A 
+HETATM   13  C   UNL     1      33.888   6.903  61.616  1.00  0.00     0.000 A 
+HETATM   14  C   UNL     1      33.510   5.570  61.717  1.00  0.00     0.001 A 
+HETATM   15  C   UNL     1      32.751   4.975  60.705  1.00  0.00     0.007 A 
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   3   8
+BRANCH   2  16
+HETATM   16  O   UNL     1      27.392   4.118  63.356  1.00  0.00    -0.365 OA
+ATOM     17  HO  UNL     1      26.887   3.318  63.441  1.00  0.00     0.213 HD
+ENDBRANCH   2  16
+BRANCH   2  18
+HETATM   18  O   UNL     1      26.046   4.740  61.602  1.00  0.00    -0.365 OA
+ATOM     19  HO  UNL     1      25.541   3.940  61.687  1.00  0.00     0.213 HD
+ENDBRANCH   2  18
+TORSDOF 5

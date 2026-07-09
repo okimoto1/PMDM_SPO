@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_8  and  C_12 
+REMARK    2  A    between atoms: CA_8  and  C_16 
+REMARK    3  A    between atoms: CA_8  and  N_17 
+REMARK       I    between atoms: N_17  and  C_20 
+ROOT
+HETATM    1  N   UNL     1       9.761  43.630  21.220  1.00  0.00    -0.332 N 
+ATOM      2  HN  UNL     1      10.437  43.223  21.866  1.00  0.00     0.168 HD
+HETATM    3  C   UNL     1       8.797  41.544  20.345  1.00  0.00     0.032 C 
+HETATM    4  C   UNL     1       7.901  40.776  19.623  1.00  0.00     0.002 C 
+HETATM    5  C   UNL     1       7.081  43.718  18.789  1.00  0.00     0.040 C 
+HETATM    6  O   UNL     1       8.714  45.123  19.967  1.00  0.00    -0.289 OA
+HETATM    7  C   UNL     1       8.919  42.944  20.359  1.00  0.00     0.068 C 
+HETATM    8  C   UNL     1       6.854  41.217  18.836  1.00  0.00     0.000 C 
+HETATM    9  C   UNL     1       8.181  43.900  19.655  1.00  0.00     0.104 C 
+HETATM   10  C   UNL     1       9.517  44.906  21.040  1.00  0.00     0.183 C 
+HETATM   11  C   UNL     1       6.458  42.527  18.553  1.00  0.00     0.003 C 
+ENDROOT
+BRANCH  10  12
+HETATM   12  CA  UNL     1      10.004  46.053  21.848  1.00  0.00     0.166 C 
+BRANCH  12  13
+HETATM   13  C   UNL     1       9.305  46.251  23.169  1.00  0.00     0.231 C 
+HETATM   14  O   UNL     1       8.878  47.407  23.439  1.00  0.00    -0.643 OA
+HETATM   15  OXT UNL     1       9.127  45.293  23.946  1.00  0.00    -0.643 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+HETATM   16  N   UNL     1      11.429  46.187  21.825  1.00  0.00    -0.291 N 
+HETATM   17  C   UNL     1      12.379  45.862  22.733  1.00  0.00     0.288 C 
+HETATM   18  O   UNL     1      12.514  46.520  23.785  1.00  0.00    -0.629 OA
+HETATM   19  O   UNL     1      13.121  44.885  22.453  1.00  0.00    -0.629 OA
+ATOM     20  HN  UNL     1      11.795  46.603  20.969  1.00  0.00     0.172 HD
+ENDBRANCH  12  16
+ENDBRANCH  10  12
+TORSDOF 3

@@ -1,0 +1,75 @@
+================================================================================
+NOTICE
+================================================================================
+
+This repository accompanies the paper:
+
+  "Improving Pocket-Conditioned 3D Molecular Generation via Step-by-step
+   Preference Optimization with Human Feedback"
+  Boyi Jin, Masayuki Uranagase, Taku Tsuzuki, Shigeo Fujita,
+  Noriaki Okimoto, Makoto Taiji (2026).
+
+--------------------------------------------------------------------------------
+1. Newly developed components
+--------------------------------------------------------------------------------
+
+The components newly developed in this work — including the Step-aware
+Preference Model (SPM), the Step-by-step Preference Optimization (SPO)
+fine-tuning pipeline, the evaluation scripts, and related tooling — are
+licensed under the MIT License.
+
+  Copyright (c) 2026 RIKEN
+
+See the LICENSE file for the full MIT License text.
+
+--------------------------------------------------------------------------------
+2. PMDM-derived and modified components
+--------------------------------------------------------------------------------
+
+This repository builds on and modifies PMDM (Pocket-based Molecular Diffusion
+Model), which is distributed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+  Original work:
+    Huang, L., Xu, T., Yu, Y., Zhao, P., Chen, X., Han, J., Xie, Z., Li, H.,
+    Zhong, W., Wong, K.-C., & Zhang, H. (2024).
+    "A dual diffusion model enables 3D molecule generation and lead
+     optimization based on target pockets."
+    Nature Communications, 15, 2657.
+    https://doi.org/10.1038/s41467-024-46569-1
+
+  Source code:
+    GitHub: https://github.com/Layne-Huang/PMDM
+    Zenodo: https://doi.org/10.5281/zenodo.10631358
+
+  License:
+    Creative Commons Attribution 4.0 International (CC BY 4.0)
+    https://creativecommons.org/licenses/by/4.0/
+
+Changes made:
+  The original PMDM code has been modified in this repository, including (but
+  not limited to) the addition of preference-model-guided sampling and the
+  SPO-based fine-tuning procedure. Files or portions derived from PMDM remain
+  under CC BY 4.0, with attribution to the original authors as stated above.
+
+--------------------------------------------------------------------------------
+3. Third-party tools (not redistributed)
+--------------------------------------------------------------------------------
+
+The following external tools are used by this repository but are NOT included
+or redistributed here. They are installed separately (e.g., during the Docker
+image build) and retain their own respective licenses:
+
+  - OpenBabel        https://openbabel.org
+  - QuickVina2       https://qvina.github.io/
+  - AutoDockTools    https://github.com/jaimergp/autodocktools-prepare-py3k
+
+--------------------------------------------------------------------------------
+4. Data
+--------------------------------------------------------------------------------
+
+Part of the SPM training data was derived from the Namiki HTS Library
+(2023 version), provided by Namiki Shoji Co., Ltd. These structures are
+included in this repository with permission from the provider. Please retain
+appropriate attribution to Namiki Shoji Co., Ltd. when using this data. See the
+README for details on data availability.

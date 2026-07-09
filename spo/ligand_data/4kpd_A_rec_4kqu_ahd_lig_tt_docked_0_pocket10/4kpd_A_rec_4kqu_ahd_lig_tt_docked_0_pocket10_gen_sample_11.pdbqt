@@ -1,0 +1,39 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_2  and  C_12 
+REMARK    2  A    between atoms: N_5  and  C_12 
+REMARK    3  A    between atoms: C_12  and  N_15 
+REMARK    4  A    between atoms: C_12  and  C_20 
+ROOT
+HETATM    1  C   UNL     1      14.755 -32.152  24.544  1.00  0.00    -0.023 C 
+HETATM    2  C   UNL     1      15.464 -31.393  25.482  1.00  0.00    -0.011 C 
+HETATM    3  N   UNL     1      14.571 -29.355  24.584  1.00  0.00    -0.374 N 
+ATOM      4  HN  UNL     1      14.415 -28.351  24.672  1.00  0.00     0.164 HD
+HETATM    5  C   UNL     1      13.947 -30.084  23.666  1.00  0.00     0.088 C 
+HETATM    6  C   UNL     1      14.003 -31.460  23.605  1.00  0.00     0.029 C 
+HETATM    7  C   UNL     1      14.899 -33.543  24.540  1.00  0.00     0.026 C 
+HETATM    8  C   UNL     1      15.917 -33.423  26.693  1.00  0.00     0.015 C 
+HETATM    9  C   UNL     1      15.697 -34.133  25.510  1.00  0.00     0.034 C 
+HETATM   10  C   UNL     1      16.003 -32.049  26.595  1.00  0.00     0.014 C 
+HETATM   11  C   UNL     1      15.413 -30.009  25.384  1.00  0.00     0.099 C 
+ENDROOT
+BRANCH   9  12
+HETATM   12  C   UNL     1      16.445 -35.428  25.239  1.00  0.00     0.415 C 
+BRANCH  12  13
+HETATM   13  O   UNL     1      17.275 -35.311  24.227  1.00  0.00    -0.340 OA
+ATOM     14  HO  UNL     1      16.803 -35.043  23.447  1.00  0.00     0.214 HD
+ENDBRANCH  12  13
+BRANCH  12  15
+HETATM   15  N   UNL     1      17.148 -35.828  26.401  1.00  0.00    -0.016 N 
+ATOM     16  HN3 UNL     1      17.685 -36.681  26.247  1.00  0.00     0.280 HD
+ATOM     17  HN2 UNL     1      17.923 -35.200  26.614  1.00  0.00     0.280 HD
+ATOM     18  HN1 UNL     1      16.504 -35.919  27.187  1.00  0.00     0.280 HD
+ENDBRANCH  12  15
+BRANCH  12  19
+HETATM   19  N   UNL     1      15.505 -36.487  24.944  1.00  0.00    -0.016 N 
+ATOM     20  HN3 UNL     1      15.022 -36.345  24.057  1.00  0.00     0.280 HD
+ATOM     21  HN2 UNL     1      15.967 -37.367  24.713  1.00  0.00     0.280 HD
+ATOM     22  HN1 UNL     1      14.861 -36.578  25.730  1.00  0.00     0.280 HD
+ENDBRANCH  12  19
+ENDBRANCH   9  12
+TORSDOF 4
