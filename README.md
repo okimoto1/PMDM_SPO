@@ -207,7 +207,7 @@ If you find this work useful, please cite:
 ```bibtex
 @article{Okimoto2026,
   title={Improving Pocket-Conditioned 3D Molecular Generation via Step-by-step Preference Optimization with Human Feedback},
-  author={Jin, Boyi and Uranagase, Masayuki and Tsuzuki, Taku and Fujita, Shigeo and Okimoto, Noriaki and Taiji, Makoto},
+  author={Jin, Boyi and Uranagase, Masayuki and Tsuzuki, Taku and Fujita, Shigeo and Morimoto, Gentaro and Okimoto, Noriaki and Taiji, Makoto},
   journal={To be published},
   year={2026}
 }
